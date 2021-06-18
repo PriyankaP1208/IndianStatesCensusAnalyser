@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.CensusAnalyserTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-06-18T06:33:54" hostname="DESKTOP-FSCNQ7S" time="0.085">
+<testsuite name="com.bridgelabz.CensusAnalyserTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-06-18T06:50:12" hostname="DESKTOP-FSCNQ7S" time="0.083">
   <properties/>
-  <testcase name="Given_IndianCensusCsvFile_WithWrongPath_ShouldThrowException" classname="com.bridgelabz.CensusAnalyserTest" time="0.018"/>
+  <testcase name="Given_IndianCensusCsvFile_WithWrongPath_ShouldThrowException" classname="com.bridgelabz.CensusAnalyserTest" time="0.006"/>
   <testcase name="Given_IndianCensusCsvFile_ReturnsCorrectRecords" classname="com.bridgelabz.CensusAnalyserTest" time="0.0"/>
-  <testcase name="Given_IndianCensusCsvFile_WithWrongDelimiter_ShouldThrowException" classname="com.bridgelabz.CensusAnalyserTest" time="0.066"/>
-  <testcase name="Given_IndianCensusCsvFile_WithWrongFileType_ShouldThrowException" classname="com.bridgelabz.CensusAnalyserTest" time="0.0"/>
+  <testcase name="Given_IndianCensusCsvFile_WithWrongHeader_ShouldThrowException" classname="com.bridgelabz.CensusAnalyserTest" time="0.069"/>
+  <testcase name="Given_IndianCensusCsvFile_WithWrongDelimiter_ShouldThrowException" classname="com.bridgelabz.CensusAnalyserTest" time="0.002"/>
+  <testcase name="Given_IndianCensusCsvFile_WithWrongFileType_ShouldThrowException" classname="com.bridgelabz.CensusAnalyserTest" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
